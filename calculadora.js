@@ -32,7 +32,9 @@ function Suma() {
 
 		miResultado.innerHTML = " El resultado es " + res;
 
-
+		/*document.getElementById('Resultado').innerHTML =
+		parseInt(document.getElementById('miDato1').value)
+		+parseInt(document.getElementById('miDato2').value)*/
 }
 
 function Resta() {
@@ -50,7 +52,7 @@ function Resta() {
 		miDato1 = miDato1.value;
 		miDato2 = miDato2.value;
 
-		res = miDato1 - miDato2
+		res = miDato1 - miDato2;
 
 		miResultado.innerHTML = " El resultado es " + res;
 
@@ -71,7 +73,7 @@ function Mul() {
 		miDato1 = miDato1.value;
 		miDato2 = miDato2.value;
 
-		res = miDato1 * miDato2
+		res = miDato1 * miDato2;
 
 		miResultado.innerHTML = " El resultado es " + res;
 
@@ -92,8 +94,11 @@ function Div() {
 		miDato1 = miDato1.value;
 		miDato2 = miDato2.value;
 
-		res = miDato1 / miDato2
+		res = miDato1 / miDato2;
 
 		miResultado.innerHTML = " El resultado es " + res;
 
 }
+
+
+
